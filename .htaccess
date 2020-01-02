@@ -1,0 +1,5 @@
+RewriteEngine On    # Turn on the rewriting engine
+ 
+# RewriteRule ^api/([0-9a-zA-Z_-]*)$ api.php?s_id=$1 [NC,L]
+
+RewriteRule ^api2/([0-9a-zA-Z_-]*)$ api2.php?s=$1 [NC,L]
