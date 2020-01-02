@@ -20,7 +20,7 @@ if(isset($_REQUEST['insertStd'])){
     $insertUser = mysqli_query($connection, $query);
     
     echo("<script>alert('Student Inserted')</script>");
-    echo("<script>window.location.href = 'https://uniapi.000webhostapp.com/form.php';</script>");
+    echo("<script>window.location.href = 'http://localhost:8090/farazportaluni/form.php';</script>");
 }
 // header('Location: form.php');
 ?>
